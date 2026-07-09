@@ -1,0 +1,10 @@
+(version 1)
+(rule drain_clearance
+    (condition "A.Net == 'Drain'")
+    (constraint clearance (min 1.5mm)))
+(rule feedback_input_clearance
+    (condition "A.Net == 'feedback'")
+    (constraint clearance (min 1.5mm)))
+(rule sec_bottom_clearance
+    (condition "A.Net == 'sec_bottom'")
+    (constraint clearance (min 2.0mm)))
