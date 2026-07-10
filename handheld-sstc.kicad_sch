@@ -10907,7 +10907,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 250.19 106.68 90)
+		(at 250.19 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10921,7 +10921,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SMCJ130A"
@@ -10930,7 +10930,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
