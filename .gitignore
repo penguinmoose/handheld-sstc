@@ -2,3 +2,5 @@ fp-info-cache
 handheld-sstc-backups/
 .git/
 .DS_Store
+*.lck
+*.kicad_prl

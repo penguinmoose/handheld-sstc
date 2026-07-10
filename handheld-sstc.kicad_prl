@@ -17,7 +17,7 @@
     },
     "selection_filter": {
       "dimensions": true,
-      "footprints": true,
+      "footprints": false,
       "graphics": true,
       "keepouts": true,
       "lockedItems": false,
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "miniteslacoil.kicad_prl",
+    "filename": "handheld-sstc.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

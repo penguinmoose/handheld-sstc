@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "miniteslacoil.kicad_pro",
+    "filename": "handheld-sstc.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -499,7 +499,7 @@
         "clearance": 0.25,
         "name": "15V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.9,
@@ -509,31 +509,21 @@
         "clearance": 1.5,
         "name": "Clear1.5mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "clearance": 2.0,
         "name": "Clear2.0mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "clearance": 0.25,
-        "name": "Gate",
+        "clearance": 0.7,
+        "name": "Drain",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.9,
-        "via_drill": 0.5
-      },
-      {
-        "clearance": 0.5,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
         "via_diameter": 1.2,
@@ -541,9 +531,27 @@
       },
       {
         "clearance": 0.25,
-        "name": "Signal",
+        "name": "Gate",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.9,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 1.5,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.0
+      },
+      {
+        "clearance": 0.25,
+        "name": "Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.8,
@@ -597,7 +605,7 @@
         "pattern": "Gate_Drive"
       },
       {
-        "netclass": "Power",
+        "netclass": "Drain",
         "pattern": "Drain"
       },
       {
