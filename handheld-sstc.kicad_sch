@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mini Handheld Tesla Coil")
-		(date "June 16, 2026")
+		(date "2026-07-09")
 		(rev "1.7")
 		(company "Johannes")
 		(comment 1 "Based on Hyperspace Pirate's \"Tabletop Tesla Coil\", designed by Johannes")
