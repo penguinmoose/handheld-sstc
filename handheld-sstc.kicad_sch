@@ -9,7 +9,9 @@
 		(date "2026-07-09")
 		(rev "1.7")
 		(company "Johannes")
-		(comment 1 "Based on Hyperspace Pirate's \"Tabletop Tesla Coil\", designed by Johannes")
+		(comment 1 "https://github.com/penguinmoose/handheld-sstc")
+		(comment 2 "Project files and BOM on GitHub (CC BY-NC-SA):")
+		(comment 3 "Based on Hyperspace Pirate's \"Tabletop Tesla Coil\", designed by Johannes")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
